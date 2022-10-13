@@ -1,0 +1,124 @@
+<div *ngIf="!luminaria?.info_completa else completeInfo">
+    <div class="row">
+        <div class="col-5">
+            <h6>Id luminaria</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.id_luminaria ? luminaria?.id_luminaria : "--"}}
+        </div>
+    </div>
+</div>
+<ng-template #completeInfo>
+    <div class="row">
+        <div class="col-5">
+            <h6>Id luminaria</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.id_luminaria ? luminaria?.id_luminaria : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Altura</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.altura ? luminaria?.altura : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Cantidad lámparas</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.cantidad_lamparas ? luminaria?.cantidad_lamparas : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Distancia eje</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.distancia_eje ? luminaria?.distancia_eje : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Equipo Auxiliar</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.equipo_auxiliar ? luminaria?.equipo_auxiliar : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Estado lámpara</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.estado_lampara ? luminaria?.estado_lampara : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Estado luminaria</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.estado_luminaria ? luminaria?.estado_luminaria : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Estado soporte</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.estado_soporte ? luminaria?.estado_soporte : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Lado vía</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.lado_via ? luminaria?.lado_via : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Longitud brazo</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.longitud_brazo ? luminaria?.longitud_brazo : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Marca lámpara</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.marca_lampara ? luminaria?.marca_lampara : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Marca luminaria</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.marca_luminaria ? luminaria?.marca_luminaria : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Marca soporte</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.marca_soporte ? luminaria?.marca_soporte : "--"}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <h6>Modelo lámpara</h6>
+        </div>
+        <div class="col-7">
+            {{luminaria?.modelo_lampara ? luminaria?.modelo_lampara : "--"}}
+        </div>
+    </div>
+</ng-template>

@@ -1,0 +1,21 @@
+.ls-container{
+  margin-top: -1rem;
+  width: 96%;
+}
+
+img {
+    width: 20px;
+    height: 10px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img:active {
+    transform: rotateY('180');
+}
+
+.card {
+    flex-direction: inherit;
+}

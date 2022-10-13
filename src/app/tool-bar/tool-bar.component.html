@@ -1,0 +1,17 @@
+<div class="container-detail mt-5">
+  <div class="row">
+    <div class="col-xl-6 col-lg-8 d-flex justify-content-space-around  mt-2 mb-1">
+      <a [routerLink]="'/informacion-elemento'">
+        <img class="imgIcon ctr-img"  src="assets/icons/info.svg" alt="">
+      </a>
+      <a [routerLink]="'/analisis-grafico'">
+        <img class="imgIcon ctr-img2"  src="assets/icons/chart.svg" alt="">
+      </a>
+    </div>
+    <span class="elementText"><br>Información del elemento</span>
+    <div class="line"></div>
+  </div>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

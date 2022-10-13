@@ -1,0 +1,12 @@
+<div class="ls-container">
+  <div *ngFor="let luminary of luminaries">
+    <div class="row mt-3 card">
+      <div class="col-10">
+        <app-detail-info [luminaria]="luminary"></app-detail-info>
+      </div>
+      <div class="col-2">
+        <img src="../../assets/icons/angle-down-solid.svg" (click)="watchInfoComplete(luminary)">
+      </div>
+    </div>
+  </div>
+</div>

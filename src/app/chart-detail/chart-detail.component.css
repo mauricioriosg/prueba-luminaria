@@ -1,0 +1,5 @@
+.container-chart {
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: auto;
+}
